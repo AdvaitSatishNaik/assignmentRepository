@@ -3,8 +3,8 @@ import './styling.css'
 function TodoApp() {
    const [tasks, setTasks] = useState([
     { id: 1, text: "Build To-Do App", completed: true },
-    { id: 2, text: "Test it's buttons", completed: false },
-    { id: 3, text: "Test it's input field", completed: false },
+    { id: 2, text: "Test it's input field", completed: false },
+    { id: 3, text: "Test it's buttons", completed: false }, 
     { id: 4, text: "Learn React", completed: false }
   ]);
 
