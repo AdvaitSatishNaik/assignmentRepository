@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import './styling.css'
 function TodoApp() {
    const [tasks, setTasks] = useState([
-    { id: 1, text: "Learn React", completed: false },
-    { id: 2, text: "Build To-Do App", completed: true }
+    { id: 1, text: "Build To-Do App", completed: true },
+    { id: 2, text: "Test it's buttons", completed: false },
+    { id: 3, text: "Test it's input field", completed: false },
+    { id: 4, text: "Learn React", completed: false }
   ]);
 
   const [input, setInput] = useState("");
@@ -54,7 +56,7 @@ function TodoApp() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h3>To Do List Assignment - Advait Naik</h3>
+      <h1>Build To-Do App Assignment - Advait Naik</h1>
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
@@ -62,10 +64,9 @@ function TodoApp() {
         type="text" class="modern-input"
       />
 
-      <button onClick={handleAdd}>
-        {editId !== null ? "Update" : "Add"}
+      <button class="btn-primary" onClick={handleAdd}>
+        {editId !== null ? "Update" : "Add task"}
       </button>
-
 
       <ul>
         {tasks.map((task) => (
@@ -80,10 +81,9 @@ function TodoApp() {
             >
               {task.text}
             </span>
-
-            <button onClick={() => handleEdit(task)}>Edit</button>
-            <button onClick={() => handleDelete(task.id)}>Delete</button>
-            <button onClick={() => toggleComplete(task.id)}>Mark as Completed</button>
+            <button class="btn-primary" onClick={() => handleEdit(task)}>Edit</button>
+            <button class="btn-primary" onClick={() => handleDelete(task.id)}>Delete</button>
+            <button class="btn-primary" onClick={() => toggleComplete(task.id)}>Mark as Completed</button>
           </li>
         ))}
       </ul>

@@ -3,43 +3,38 @@
 }
 
 button {
-
     color: blue;
     background-color: lightblue;
     border-radius: 10px;
     border-color: blue;
     margin-top: 10px;
     margin-left:1px
-
-    
 }
 
 ul li{
   text-decoration: none;
   text-decoration-color: none;
-
 }
 
 ul li{
   list-style-type: none;
-
 }
 
-h3{
-
+h2{
   color:#a71501
 }
 
+h1{
+  color:#a71501
+}
 
 button {
-
     color: blue;
     background-color: lightblue;
     border-radius: 10px;
     border-color: blue;
     margin-top: 10px;
     margin-left:15px
-    
 }
 
 .modern-input {
@@ -59,3 +54,46 @@ button {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Soft glow */
 }
 
+.btn-primary {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Trendy gradient */
+  color: white;
+  border: none;
+  border-radius: 50px; /* Pill shape */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth motion */
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.btn-primary:active {
+  transform: translateY(0); /* Press effect */
+}
+
+.btn-primary {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Trendy gradient */
+  color: white;
+  border: none;
+  border-radius: 50px; /* Pill shape */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth motion */
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.btn-primary:active {
+  transform: translateY(0); /* Press effect */
+}
