@@ -1,0 +1,61 @@
+.hooksLeftMargin{
+  margin-left:30px 
+}
+
+button {
+
+    color: blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    border-color: blue;
+    margin-top: 10px;
+    margin-left:1px
+
+    
+}
+
+ul li{
+  text-decoration: none;
+  text-decoration-color: none;
+
+}
+
+ul li{
+  list-style-type: none;
+
+}
+
+h3{
+
+  color:#a71501
+}
+
+
+button {
+
+    color: blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    border-color: blue;
+    margin-top: 10px;
+    margin-left:15px
+    
+}
+
+.modern-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition */
+  outline: none; /* Removes default browser blue ring */
+}
+
+.modern-input:focus {
+  border-color: #007bff; /* Blue border on click */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Soft glow */
+}
+
